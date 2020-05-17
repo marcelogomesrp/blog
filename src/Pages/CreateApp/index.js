@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom'
 import style from './style.module.css';
 
 
-export default function Page1() {
+export default function CreateAPP() {
 
     return(
         <div>
-            <h1>Pagina1</h1>
+            <h1>CreateAPP</h1>
+            <Link to="CreateApp">Create APP</Link>
             <Link to="Page1">
                Página 1
            </Link>
