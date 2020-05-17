@@ -8,6 +8,7 @@ export default function Page1() {
     return(
         <div>
             <h1>Pagina1</h1>
+            <Link to="CreateApp">Create APP</Link>
             <Link to="Page1">
                Página 1
            </Link>

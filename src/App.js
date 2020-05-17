@@ -1,14 +1,13 @@
 import React from 'react';
 import './global.css';
 import Routes from './routes'
+import { Link } from 'react-router-dom'
 
 function App() {
-  console.log('-----------------');
-  //console.log(style);
-  console.log('-----------------');
-
   return (
-    <Routes />
+    <div>
+      <Routes />
+    </div>
   );
 }
 
